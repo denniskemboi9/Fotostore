@@ -1,7 +1,29 @@
+##### FOTOSTORE #######
+
+Authors-Gabriel Mwenda,Gerald Obede,Bella Elam,Dennis Kemboi
+
+The frontend is deployed on netlify https://fotostoreproject.netlify.app/
+The backend is deployed using render
+
+#### Fotostore enables sharing photos with others in an easy, efficient, and organized way. Prior to the emergence of photo sharing platforms, sharing photos required physically sending or showing them to others, which could be time-consuming, costly, and inconvenient.
+
+#### With photo sharing platforms, people can quickly and easily upload photos to a central location, where they can be accessed by others with permission. This enables people to share their photos with a larger audience, such as friends, family, or even the general public, without having to individually send them to each person.
+
+#### Photo sharing platforms also provide a way for people to organize and store their photos digitally. With the ability to tag, categorize, and search for photos, people can easily find the photos they want to share, or revisit memories from the past.
+
+#### In addition, photo sharing platforms often provide tools for editing, enhancing, and sharing photos, which can further enhance the user experience. Overall, photo sharing platforms address the problem of efficiently and effectively sharing photos with others in the digital age.
 
 
+We have been able to create the webpage and add basic functionality
+A user can make a post
+A user can comment on a post
+A user can delete their post
 
+Technologies used -HTML,Javascript,React,CSS
 
+#### FUTURE PLANS
+Add functionality e.g by enabling video uploads, editing, enhancing and sharing photos.
+.Add a timeline to the posts, i.e date and time posted
 
 
 

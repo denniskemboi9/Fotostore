@@ -12,13 +12,15 @@
   
 
 }
-body{
-
+body {
   background-image: url('https://images.pexels.com/photos/908339/pexels-photo-908339.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
   background-repeat: no-repeat;
   background-size: cover;
-  
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 100vh;
 }
+
 .navbar {
   padding: 10px;
   display: flex;
