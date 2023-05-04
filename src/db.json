@@ -1,20 +1,20 @@
 {
   "blogs": [
     {
-      "title": "My trip",
-      "image": "https://res.cloudinary.com/da98bqdyn/image/upload/v1629720882/foto/h5ihnub8kslcnoaycg04.jpg",
-      "body": "Norway",
-      "author": "Amine",
-      "category": "Travel",
-      "id": 2
-    },
-    {
       "title": "Trip to Norway",
       "image": "https://res.cloudinary.com/da98bqdyn/image/upload/v1629721301/foto/ylaho4qcym0rhtvmbcwo.jpg",
       "body": "My winter trip",
       "author": "Jonathan",
       "category": "Travel",
       "id": 5
+    },
+    {
+      "title": "jui",
+      "image": "https://res.cloudinary.com/da98bqdyn/image/upload/v1683200479/foto/ianddqfru0ij9xnfdfxv.jpg",
+      "body": "yht",
+      "author": "ge",
+      "category": "Food",
+      "id": 6
     }
   ],
   "comments": [
