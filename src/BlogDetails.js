@@ -15,7 +15,7 @@ const BlogDetails = () => {
   const history = useHistory();
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/blogs/${id}`)
+    axios.get(`https://fotostore.onrender.com/blogs/${id}`)
       .then(res => {
         setBlog(res.data);
         setIsPending(false);
@@ -27,7 +27,7 @@ const BlogDetails = () => {
   }, [id]);
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/comments?pub=${pub}`)
+    axios.get(`https://fotostore.onrender.com/comments?pub=${pub}`)
       .then(res => {
         setComments(res.data);
         setIsPending1(false);
@@ -39,7 +39,7 @@ const BlogDetails = () => {
   }, [pub]);
 
   const handleClick = () => {
-    axios.delete(`http://localhost:8000/blogs/${blog.id}`)
+    axios.delete(`https://fotostore.onrender.com/blogs/${blog.id}`)
       .then(() => {
         history.push('/');
       })
@@ -52,7 +52,7 @@ const BlogDetails = () => {
     e.preventDefault();
     const c = { comment, pub };
 
-    axios.post('http://localhost:8000/comments', c)
+    axios.post('https://fotostore.onrender.com/comments', c)
       .then(() => {
         window.location.reload();
       })
