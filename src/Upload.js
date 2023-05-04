@@ -34,7 +34,7 @@ const Upload = () => {
   const upload = async e => {
     e.preventDefault();
     const f = {title,image,body,author,category};
-    fetch('http://localhost:8000/blogs/', {
+    fetch('https://fotostore.onrender.com/blogs', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(f)

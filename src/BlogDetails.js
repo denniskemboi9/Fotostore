@@ -27,7 +27,7 @@ const BlogDetails = () => {
   }, [id]);
 
   useEffect(() => {
-    axios.get(`https://fotostore.onrender.com/comments?pub=${pub}`)
+    axios.get(`https://fotostore.onrender.com/comments`)
       .then(res => {
         setComments(res.data);
         setIsPending1(false);
