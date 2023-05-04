@@ -1,0 +1,42 @@
+{
+  "blogs": [
+    {
+      "title": "My trip",
+      "image": "https://res.cloudinary.com/da98bqdyn/image/upload/v1629720882/foto/h5ihnub8kslcnoaycg04.jpg",
+      "body": "Norway",
+      "author": "Amine",
+      "category": "Travel",
+      "id": 2
+    },
+    {
+      "title": "Trip to Norway",
+      "image": "https://res.cloudinary.com/da98bqdyn/image/upload/v1629721301/foto/ylaho4qcym0rhtvmbcwo.jpg",
+      "body": "My winter trip",
+      "author": "Jonathan",
+      "category": "Travel",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "comment": "He is so cute !",
+      "pub": 1,
+      "id": 1
+    },
+    {
+      "comment": "hur",
+      "pub": 4,
+      "id": 2
+    },
+    {
+      "comment": "its good",
+      "pub": 7,
+      "id": 3
+    },
+    {
+      "comment": "what a dog",
+      "pub": 1,
+      "id": 4
+    }
+  ]
+}
